@@ -1,0 +1,53 @@
+body{
+    background-color:darkolivegreen;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+h1{
+    color: gold
+}
+h3{
+    color: black;
+    background-color:antiquewhite;
+    border-style: solid; border-color:deeppink;
+}
+h1, h2 {text-align: center;}
+div details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 0.5em 0.5em 0;
+}
+
+summary {
+    font-weight: bold;
+    margin: -0.5em -0.5em 0; border-color: black;
+    padding: 0.5em;
+    
+}
+
+details[open] {
+    padding: 0.5em;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 0.5em;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover{
+    color: red;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+footer{
+font-size: small;
+}
